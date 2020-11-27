@@ -9,7 +9,7 @@ font-family: monospace;
 }
 
 h1{
-    font-size: 35px;
+    font-size: 50px;
     color: green;
     border-bottom: 2px solid yellow;
 }
@@ -17,27 +17,28 @@ h1{
 
 .nav-menu{
     list-style: none;
-
-.container{
-    width: 90%;
-    margin: auto;
-    text-align: center;
-}
-.nav-main{
-    font-size: 18px;
-    justify-content: center;
-    align-items: center;
-    height: 70px;
-    padding: 20px;
-}
-.nav-main ul{
-    display: flex;
 }
 
-.nav-main ul li{
-    padding: 10px;
+header h3{
+    font-size: 25px;
 }
 
-.nav-main ul li a:hover{
-    border-bottom: 2px solid black;
+#argumentos li{ 
+    font-size: 25px;
+    text-align: left;
+}
+
+#argumentos li:hover{ 
+    font-size: 30px;
+}
+
+.articulos h2{
+    text-align: left;
+    color: red;
+    font-size: 40px;
+}
+
+.articulos p{
+    text-align: left;
+    font-size: 25px;
 }
